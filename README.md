@@ -22,7 +22,7 @@ This is my solution for Codecademy's Responsive Club Website Challenge Project a
 Project is: _finished_
 
 ## Demo
-You can see the page here: 
+You can see the page here: https://edgarjge.github.io/South-Village-Run-Club/
 
 ## Contact
 Created by [@EdgarJGE](https://www.instagram.com/edgarjge/) - feel free to contact me!
