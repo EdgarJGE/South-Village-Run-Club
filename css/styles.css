@@ -1,0 +1,216 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #222831;
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Menu Section */
+nav {
+    width: 100%;
+    background-color: #393e46;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 3rem;
+    overflow: hidden;
+    padding-left: 1rem;
+}
+
+.logo img {
+    max-height: 100%;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+
+@media screen and (max-width: 550px) {
+    nav,
+    .menu {
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .menu a {
+        padding: 1rem;
+    }
+    
+
+    
+}
+
+/* Header Section */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 550px) {
+    .title {
+        max-width: 18.75rem;
+        text-align: center;
+        
+    }
+}
+
+/* Invitation Section */
+
+.invitation {
+    padding: 3rem 0;
+}
+
+.invitation h2 {
+    color: #00adb5;
+}
+
+/* Images Section */
+.images,
+.images-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.images-2 {
+    padding-top: 3rem;
+}
+
+.activity {
+    width: 32%;
+    overflow: hidden;
+}
+
+.activity img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .activity {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Quote Section */
+.quote {
+    width: 100%;
+    background-color: #393e46;
+}
+
+.text-content {
+    padding: 3rem 0;
+    color: #00adb5;
+}
+
+.text-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+    .text-content h3 {
+        font-size: 2rem;
+        
+    }
+}
+
+/* Join Section */
+
+.join {
+    text-align: center;
+}
+
+.image-container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.join h2 {
+    color: #00adb5;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .image-container {
+        width: 80%;
+    }
+}
+
+/* Footer */
+
+footer {
+    background-color: #393e46;
+    overflow: hidden;
+}
+
+footer p {
+    padding: 0.6rem 1rem;
+    color: #eeeeee;
+}
+
+@media screen and (max-width: 550px) {
+    footer p {
+        font-size: 0.7rem;
+    }
+}
